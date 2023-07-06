@@ -1,0 +1,49 @@
+.header {
+  height: 70px;
+    padding: 20px 50px;
+    background-color: #fff;
+    color: #000;    
+    box-shadow: 5px 5px 5px #939393;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    font-family: Poppins;
+    /* justify-content: sbetweenpace-; */
+
+}
+
+.header .logo {
+  display: block;
+  font-weight: bold;
+  font-size: 30px;
+  color: #8A6CC8;
+  font-family: Poppins;
+  font-weight: 400;
+  width: 304px;
+}
+
+.header .user {
+     width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.header .user .user-name span{
+  font-weight: normal;
+}
+
+.header .user .user-image {
+width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: #8A6CCB;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  
+}

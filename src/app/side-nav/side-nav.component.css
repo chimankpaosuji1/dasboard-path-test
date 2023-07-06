@@ -1,0 +1,41 @@
+.nav-items {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10rem;
+
+}
+
+.nav-items .nav-item {
+  padding: 16px 50px;
+  cursor: pointer;
+}
+
+.nav-items .nav-item:hover {
+  background-color: #8A6CCB;
+  border-radius: 72px;
+  width: 90%;
+  color: #fff;
+}
+
+.nav-items .nav-item fa-icon {
+  margin-right: 20px;
+    font-size: 22px;
+}
+.nav-items .nav-item span {
+  display: inline;
+}
+
+
+@media only screen and (max-width: 1300px) {
+
+  .nav-items .nav-item {
+  padding: 25px 40px;
+  }
+
+    .nav-items .nav-item span {
+      display: none;
+    }
+}
