@@ -1,6 +1,78 @@
 
-<div>
+<div class="container-1">
   <h1>Complaints</h1>
-  form
+  <div class="header">
+    <form class="search-bar">
+      <input type="text" placeholder="Search.." name="search">
+      <fa-icon [icon]="faSearch"></fa-icon>
+    </form>
+    <button type="export" class="exportbtn"><fa-icon [icon]="faFloppyDisk"></fa-icon> Export Complaints CSV</button>
+  </div>
+  <div class="top-section">
+    <div class="section-1">
+      <button type="export" class="exportbtn"><fa-icon [icon]="faBriefcase"></fa-icon>Start Date: Sept. 1</button>
+      <button type="export" class="exportbtn"><fa-icon [icon]="faBriefcase"></fa-icon> Start Date: Sept. 30</button>
+      <button type="export" class="exportbtn">Status:In-Progress</button>
+      <button type="export" class="exportbtn"><fa-icon [icon]="faFilter"></fa-icon> Filter</button>
+      <button type="export" class="exportbtn"><fa-icon [icon]="faCircleXmark"></fa-icon> Clear Filter</button>
+    </div>
+    <button type="export" class="exportbtn"><fa-icon [icon]="faLessThan" class="fa-icon"></fa-icon> 1
+    of
+    10<fa-icon [icon]="faGreaterThan" class="fa-icon"></fa-icon></button>
+  </div>
+  <div class="table-1">
+    <table class="table">
+      <tr class="tr">
+        <th>Time</th>
+        <th>Date</th>
+        <th>Phone Number</th>
+        <th>Compliant Type</th>
+        <th>Rating</th>
+        <th>NPS</th>
+        <th>Status</th>
+        <th> </th>
+      </tr>
+      <tr class="tr-1">
+        <td>12:43:01 pm</td>
+        <td>10/09/2022</td>
+        <td>07038485738</td>
+        <td>Pharmacy</td>
+        <td>3.2</td>
+        <td>7</td>
+        <td>Resolved</td>
+        <td><span class="btn">View</span></td>        
+      </tr>
+      <tr class="tr-1">
+        <td>10:03:29 am</td>
+        <td>15/09/2022</td>
+        <td>07008899873</td>
+        <td>Laboratory</td>
+        <td>1.0</td>
+        <td>3</td>
+        <td>In-Progress</td>
+        <td><span class="btn">View</span></td>
+      </tr>
+      <tr class="tr-1">
+        <td>07:20:51 pm</td>
+        <td>17/09/2022</td>
+        <td>07078869849</td>
+        <td>Emergency Unit</td>
+        <td>3.5</td>
+        <td>5</td>
+        <td>Open</td>
+        <td><span class="btn">View</span></td>
+      </tr>
+      <tr class="tr-1">
+        <td>03:24:27 pm</td>
+        <td>17/02/2022</td>
+        <td>07038485738</td>
+        <td>Cash/Account</td>
+        <td>1.0</td>
+        <td>2</td>
+        <td>In-Progress</td>
+        <td><span class="btn">View</span></td>
+      </tr>
+    </table>
+  </div>
 </div>
 

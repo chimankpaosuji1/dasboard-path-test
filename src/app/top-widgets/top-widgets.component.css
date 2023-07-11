@@ -1,0 +1,150 @@
+.container-1 {
+  padding: 2rem;
+  width: 95%;
+}
+
+.container-1 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.container-1 h1 {
+  font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    color: #8A6CC8;
+    /* text-align: center; */
+}
+.container-1 .search-bar input[type=text] {
+  width: 90%;
+  padding: 1rem 3rem;
+  border: none; 
+  border-radius: 91px;
+  
+}
+
+.container-1 .search-bar {
+  background: #fff;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 91px;
+  padding-right: 2rem;
+}
+
+.container-1 .header .exportbtn {
+  width: 20%; 
+  padding: 1rem;
+  border-radius: 77px;
+  border: none;
+  cursor: pointer;
+  background: #8A6CC8;
+  color: #fff;
+}
+
+.container-1 .top-section {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-1 .top-section .section-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.container-1 .top-section .section-1 button {
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  display: flex;
+  gap: 0.5rem;
+  background: #fff;
+  box-shadow: 3px 3px 1px rgb(168, 166, 166);
+  border: 1px solid #8A6CC8;
+
+}
+
+.container-1 .top-section .section-1 button:hover {
+  background: #8A6CC8;
+  color: #fff;
+}
+
+.container-1 .top-section button {
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  border: none;
+}
+
+.container-1 .top-section button .fa-icon {
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid rgb(168, 166, 166);
+
+}
+
+.container-1 .table-1  {
+ margin-top: 2rem;
+ width: 100%;
+}
+
+.container-1 .table-1 .table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 0.5rem;
+  border-radius: 10px;
+}
+.container-1 .table-1 .table .tr:hover {
+ background: #8A6CC8;
+
+}
+.container-1 .table-1 .table tr th {
+  text-align: center;
+  background: #EAEDF6;
+  padding: 1rem;  
+}
+
+.container-1 .table-1 .table .tr-2:hover {
+  border: 1px solid #8A6CC8;
+}
+
+.container-1 .table-1 .table .tr-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+background: #fff;
+border-radius: 10px;
+
+}
+
+.container-1 .table-1 .table .tr-1 td {
+  margin-top: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+ 
+}
+
+.container-1 .table-1 .table .btn {
+  padding: 0.5rem 1.5rem; 
+  border-radius: 88px;
+  border: 1px solid #8A6CC8; 
+  box-shadow: 3px 3px 1px rgb(168, 166, 166);
+  cursor: pointer;
+}
+
+.container-1 .table-1 .table .btn:hover {
+  background: #8A6CC8;
+  color: #fff;
+}

@@ -1,9 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import {
   faLocation,
-  faShop,
+  faSearch,
   faBoxes,
   faMoneyBill,
+  faBriefcase,
+  faCircleXmark,
+  faGreaterThan,
+  faLessThan,
+  faFloppyDisk,
+  faFilter,
 } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -13,11 +19,15 @@ import {
 })
 export class TopWidgetsComponent implements OnInit {
 
-  faLocation = faLocation;
-  faShop = faShop;
+  faSearch = faSearch;
   faBoxes = faBoxes;
   faMoneyBill = faMoneyBill;
-   
+  faBriefcase = faBriefcase;
+  faCircleXmark = faCircleXmark;
+   faGreaterThan = faGreaterThan;
+   faLessThan = faLessThan;
+   faFloppyDisk = faFloppyDisk;
+   faFilter = faFilter;
   constructor() { }
 
   ngOnInit(): void {
